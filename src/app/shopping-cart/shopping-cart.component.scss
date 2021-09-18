@@ -1,0 +1,27 @@
+$color-mine:#F3F4F7;
+$color-mine2:#7571f9;
+.bg-mine{
+    background-color: $color-mine;
+}
+
+.radius{
+    border-radius: 14px;
+
+}
+
+#minus , #plus {
+    cursor: pointer;
+}
+.count{
+    width: fit-content;
+    padding: 10px 20px;
+    box-shadow: inset 1px 1px 8px rgb(219, 219, 219);
+    span{
+        margin-top: -5px;
+    }
+}
+
+.deleteBtn{
+    box-shadow: inset 1px 1px 8px rgb(219, 219, 219);
+    border-radius: 25%;
+}
